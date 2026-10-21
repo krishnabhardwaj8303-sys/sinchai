@@ -1,0 +1,2 @@
+Start-Process powershell -ArgumentList '-NoExit','-Command','cd $HOME\sinchai; streamlit run app.py --server.port 8501'
+Start-Process powershell -ArgumentList '-NoExit','-Command','cd $HOME\sinchai; streamlit run register_app.py --server.port 8502'
